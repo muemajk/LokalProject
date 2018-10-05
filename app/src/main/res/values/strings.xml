@@ -1,0 +1,166 @@
+<resources>
+    <string name="app_name">Matziki</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <!-- Strings related to login and registration -->
+    <string name="prompt_email">Email</string>
+    <string-array name="location">
+        <item>Nairobi</item>
+        <item>Nakuru</item>
+        <item>Mombasa</item>
+        <item>Kisumu</item>
+        <item>Kajiado</item>
+        <item>Kitui</item>
+        <item>Machakos</item>
+        <item>Lamu</item>
+        <item>Eldoret</item>
+        <item>Muran'ga</item>
+        <item>Turkana</item>
+        <item>Wajir</item>
+    </string-array>
+
+    <string name="musicprefer">What Genre of music do you prefer?</string>
+    <string name="matartpreferrence">What sort of style do you prefer your matatu?</string>#
+    <string name="terms">I have read and accept the following terms and conditions</string>
+    <string name="interests">What other interests do you have?</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="type_password">Type a password</string>
+    <string name="uname">Username</string>
+    <string name="email">Type in your email address</string>
+    <string name="UserInfo">Provide Your Personal info</string>
+    <string name="genderInfo">What gender are you?</string>
+    <string name="AgeInfo">What age are you?</string>
+    <string name="locInfo">Where are you located?</string>
+    <string name="firstname">First name</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="other">Other</string>
+    <string name="passwordstrong">Strong</string>
+    <string name="passwordmid">Medium</string>
+    <string name="passwordlow">Low</string>
+    <string name="surname">Surname</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- Strings related to homepage(Mainpage) -->
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="Matatunm">Matatu name</string>
+    <string name="matartist">ARTISTS</string>
+
+    <string name="Matplay">Matatu Playlist</string>
+    <string name="userplay">User Playlist</string>
+    <string name="podcast">Podcasts</string>
+    <string name="dejaymix">Deejay Mixes</string>
+    <string name="dis">Discover</string>
+    <string name="matzikiplay">Ziki playlist and Music</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_settings">Settings</string>
+
+
+    <!--String collection for Matatu reports-->
+    <string name="tobenoted">M@ziki aims to provide to users better services and ensure that their travel is as comfortable as possible. It is for this reason we provide this space for user to report issues the may have with the content privided or services provided by either us as a company or maatatu.</string>
+    <string name="operators">Matatu Operators:</string>
+    <string name="reporttitle">REPORT</string>
+    <string name="operation">Matatu Operators</string>
+    <string name="operationissue1">Dangerous and wreckless driving</string>
+    <string name="operationissue2">Overpricing</string>
+    <string name="operationissue3">rowdiness and inapporiate behaviour</string>
+    <string name="operationissue4">vulgar language from operators</string>
+    <string name="operationissue5">Harassment</string>
+    <string name="operationissue6">Sex Harassment </string>
+    <string name="operationissue7">drunk while on duty</string>
+    <string name="music_content">Music on the matatu</string>
+    <string name="music_contentissues1">Bad quality sound</string>
+    <string name="music_contentissues2">Vulgar language in music and other inapproriate content</string>
+    <string name="music_contentissues3">Different music to the one claimed by matatu to provide</string>
+    <string name="service">Matziki services on the matatu</string>
+    <string name="service_issues1">Bad internet connection on matatu</string>
+    <string name="moreinfo">To assist in better service delivery please provide more information about your report</string>
+
+
+    <!--STRING COLLECTION FOR PLAYERDOCK-->
+    <!--Play controls-->
+    <string name="play">Now Playing</string>
+    <string name="loading">Loading..</string>
+    <string name="paused">Paused</string>
+    <!--Play errors-->
+    <string name="player">Player has stopped</string>
+    <string name="playerror">An error occured while playing</string>
+    <string name="loaderror">An error occured while loading song</string>
+    <string name="corrupted">Song is corrupted</string>
+    <string name="notfree">Upgrade package to play this song</string>
+    <string name="Broaderror">Error occured while trying to broadcast</string>
+
+    <!--Music info-->
+    <string name="artistdock">Artist</string>
+    <string name="songname">Song Name</string>
+
+    <!--STRING COLLECTION FOR BROADCASTING YOUR PLAY-->
+
+    <string name="welcomebroad">WELCOME TO BROADCAST</string>
+    <string name="infobroad">This page allows you to choose how your play is broadcasted</string>
+    <string name="pubroad">PUBLIC</string>
+    <string name="friendbroad">FRIENDS or PRIVATE</string>
+    <string name="choosebroad">You may also wish to choose a specific person or group of people in your list of friends</string>
+    <string name="broad">Broadcast!</string>
+    <string name="cancelbroad">Cancel Broadcast</string>
+
+    <!--STRING COLLECTION FOR ARTIST PAGE-->
+    <string name="albumszako">ALBUM</string>
+    <string name="infoyako">BIOGRAPHY</string>
+    <string name="zikimix">M@ZIKI MIX</string>
+    <string name="moreinfoyako">more info</string>
+    <string name="artistgenre">Genre</string>
+
+
+    <!--STRING COLLECTION FOR MATATU PAGE-->
+    <string name="driverstring">Driver :</string>
+    <string name="conductorstring">Conductor :</string>
+    <string name="createdstring">Created On :</string>
+    <string name="saccostring">Sacco :</string>
+    <string name="biostring">BIO</string>
+    <string name="listenstring">Listen Live</string>
+    <string name="connectstring">Connect</string>
+    <string name="servicedstring">Serviced on :</string>
+    <string name="designedbystring">Designed by :</string>
+    <string name="destinationstring">Destination :</string>
+    <string name="footerstring">2018</string>
+    <string name="scheduleop">MIXES/PODCAST</string>
+    <string name="table">SCHEDULE</string>
+    <string name="Feedop">FEED</string>
+    <string name="mattist">ARTIST</string>
+
+
+    <!--LIVE COMMENTS STRING-->
+    <string name="reportlive">REPORT USER</string>
+    <string name="hidelive">HIDE COMMENT</string>
+    <string name="likelive">LIKE</string>
+    <!--STRING FOR USER PROFILE-->
+
+    <string name="sendpic">Send picture</string>
+    <string name="sendmes">Send</string>
+    <string name="addfriend">Add friend</string>
+    <string name="usermess">View Chat</string>
+    <string name="hidechat">Hide Chat</string>
+    <string name="usercontent">Content</string>
+    <string name="broadcastchannel">invite to cast</string>
+    <string name="usermatatu">Boarded Matatus</string>
+    <string name="userplaylist">Playlist</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+
+
+</resources>

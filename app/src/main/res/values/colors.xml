@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#111111</color>
+    <color name="colorPrimaryDark">#621364</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="windowBackground">#ffffff</color>
+    <color name="morecolor">#f3f1f1</color>
+    <color name="bars">#2f0730</color>
+    <color name = "orientchoice">#a31b8f</color>
+    <color name="pickorient">#f70cd4</color>
+    <color name="textcolor">#20011b</color>
+    <color name = "homeview">#faeff8</color>
+    <color name="textarea">#202020</color>
+    <color name="homeviewbtn">#d537fd</color>
+    <color name="homeviewofflinetext">#bbfa99</color>
+    <color name="homeviewonlinetext">#2af700</color>
+    <color name="homeviewplaylist">#720262</color>
+    <color name="homeviewtext">#242624</color>
+    <color name="switchcolor">#11010f</color>
+    <color name="matprofilename">#ccccce</color>
+</resources>

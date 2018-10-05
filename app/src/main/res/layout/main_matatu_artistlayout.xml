@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/imgpic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardElevation="10dp">
+        <ImageView
+            android:id="@+id/imgpic2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/migos" />
+    </android.support.v7.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/txtid"
+        android:layout_width="80dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Artist Name"
+        android:textColor="@color/windowBackground"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imgpic"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imgpic"
+        app:layout_constraintTop_toBottomOf="@+id/imgpic" />
+
+    <TextView
+        android:id="@+id/textView81"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="TextView"
+        android:textColor="@color/windowBackground"
+        app:layout_constraintStart_toStartOf="@+id/txtid"
+        app:layout_constraintTop_toBottomOf="@+id/txtid" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+        android:id="@+id/toolbar3"
+        android:layout_height="wrap_content"
+        android:background="@color/bars"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+    app:popupTheme="@style/Base.ThemeOverlay.AppCompat.Light"
+    android:elevation="4dp">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="54dp"
+                android:layout_height="64dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@android:drawable/ic_media_play" />
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginEnd="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/imageView28"
+                app:layout_constraintTop_toBottomOf="@+id/seekBar"
+                app:srcCompat="@drawable/adobe_20180213_184233" />
+
+            <ImageView
+                android:id="@+id/imageView27"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginEnd="4dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/seekBar"
+                app:srcCompat="@drawable/next" />
+
+            <SeekBar
+                android:id="@+id/seekBar"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:max="10"
+                android:progress="5"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imageView24"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:id="@+id/playerbarinfoid"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/imageView25"
+                app:layout_constraintStart_toEndOf="@+id/imageView24"
+                app:layout_constraintTop_toBottomOf="@+id/seekBar">
+
+                <TextView
+                    android:id="@+id/textView39"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="TextView"
+                    android:textColor="@color/switchcolor"
+                    android:textAlignment="textStart"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView82"
+                    android:layout_width="match_parent"
+                    android:layout_height="12dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="TextView"
+                    android:textColor="@color/switchcolor"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView28"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:layout_marginEnd="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/imageView27"
+                app:layout_constraintTop_toBottomOf="@+id/seekBar"
+                app:srcCompat="@drawable/adobe_20180213_184057" />
+
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.Toolbar>
+
+
